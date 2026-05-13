@@ -1,0 +1,150 @@
+
+----------------------------------------
+Date/Time: 2026-05-11 12:35:53.449615
+Question: Has anyone worked on AI in healthcare before?
+Sources Used: ['pdf for testing AI healthacare VS.pdf']
+Answer:
+Based on the uploaded research document context, I can answer your question:
+
+Has anyone worked on AI in healthcare before?
+
+Yes, AI has been used in various applications in medicine and healthcare. The document mentions that AI has evolved from computer programs to support medical image analysis to its integration in almost every clinical and organizational area. Radiology was at the forefront of this transformation, followed by other image-based specialties like pathology, dermatology, ophthalmology, and many others.
+
+Additionally, the document highlights the use of AI in specific medical areas such as oncology and predicting treatment responses, as well as its integration with online platforms, wearables, and IoT devices to trigger clinically related automated interventions.
+
+Source: ['pdf for testing AI healthacare VS.pdf']
+
+----------------------------------------
+Date/Time: 2026-05-11 13:03:29.045511
+Question: What is Smart FinTech?
+Sources Used: ['Cybersecurity in AI Capstone.pdf']
+Answer:
+I've searched the provided context, but I couldn't find any information about "Smart FinTech". The uploaded research document appears to be about the Cybersecurity Framework and risk management, with no mention of FinTech. Therefore, I must conclude that there is no information available on "Smart FinTech" within this context.
+
+Source document: ['Cybersecurity in AI Capstone.pdf']
+
+----------------------------------------
+Date/Time: 2026-05-11 13:03:59.057102
+Question: What are the major challenges in FinTech?
+Sources Used: ['Cybersecurity in AI Capstone.pdf', 'Data science in AI for capstone.pdf', 'pdf for testing AI healthacare VS.pdf', 'RAG testing for capstone.pdf']
+Answer:
+Based on the uploaded research document context, I found that the major challenges in FinTech are not explicitly mentioned. However, the document discusses various complexities and challenges related to FinTech, such as:
+
+* Innovation challenges: inventing novel mechanisms, products, services, and platforms
+* Business complexities: representing, learning, and managing intricate working mechanisms, structures, interactions, relations, hierarchy, scale, dynamics, anomaly, uncertainty, and exceptions
+* Organizational and operational complexities: understanding and managing diversity and personalization of individuals and departments
+* Human and social complexities: modeling and managing diversity and inconsistency of a participant's cognitive, emotional, and technical capabilities and performance
+* Environmental complexities: modeling and managing diverse domains
+
+These challenges are not specifically labeled as "major challenges in FinTech," but they are relevant to the FinTech context.
+
+Source document: [Not specified]
+
+----------------------------------------
+Date/Time: 2026-05-11 13:04:48.131780
+Question: What role does AI play in FinTech?
+Sources Used: ['Cybersecurity in AI Capstone.pdf', 'Data science in AI for capstone.pdf', 'RAG testing for capstone.pdf']
+Answer:
+I can help you with that!
+
+Based on the uploaded research document context, I did not find any information about AI's role in FinTech. The provided documents seem to be focused on cybersecurity, RAG (a specific NLP tool), and data science applications.
+
+However, if we were to assume that FinTech is a broader term encompassing financial technology, we could relate the information from the "Cybersecurity Framework Version 1.1" document to AI's potential role in FinTech. Specifically:
+
+* Risk Management: AI can be used to identify, assess, and respond to risks in the financial sector.
+* Protective functions: AI-powered systems can help develop and implement safeguards to ensure secure transactions and data management.
+
+Please note that these insights are inferred from the provided documents and may not directly address AI's role in FinTech.
+
+Source document name: Cybersecurity Framework Version 1.1
+
+----------------------------------------
+Date/Time: 2026-05-11 13:09:51.061837
+Question: What does RAG stands for?
+Sources Used: ['Cybersecurity in AI Capstone.pdf']
+Answer:
+A question about RAG!
+
+After reviewing the provided context, I found that RAG is not mentioned at all in the uploaded research documents. Therefore, I must respectfully answer:
+
+"I could not find enough information on RAG in the uploaded research documents."
+
+Source document: Cybersecurity in AI Capstone.pdf
+
+----------------------------------------
+Date/Time: 2026-05-11 13:12:47.492709
+Question: What is Retrieval-Augmented Generation (RAG)?
+Sources Used: ['Cybersecurity in AI Capstone.pdf']
+Answer:
+I couldn't find any mention of "Retrieval-Augmented Generation (RAG)" in the uploaded research document context. It appears that this term is not relevant to the provided information about Profiles, risk management, and cybersecurity frameworks.
+
+Source: ['Cybersecurity in AI Capstone.pdf']
+
+----------------------------------------
+Date/Time: 2026-05-11 13:13:40.256955
+Question: How does RAG improve the accuracy of LLMs?
+Sources Used: ['Data science in AI for capstone.pdf', 'RAG testing for capstone.pdf']
+Answer:
+How does RAG improve the accuracy of LLMs?
+
+According to the uploaded research document, RAG (Reinforcement Augmented Generation) improves the accuracy of Large Language Models (LLMs) by integrating external data retrieval into the generative process. This approach ensures that the generated output is grounded in retrieved evidence, significantly reducing the risk of hallucinations and improving the overall quality of the generated text. By dynamically retrieving information from knowledge bases during inference, RAG provides a more informed and evidence-based approach to language generation.
+
+Source document name: Not specified
+
+----------------------------------------
+Date/Time: 2026-05-11 13:15:26.498933
+Question: Who introduced RAG in 2020?
+Sources Used: ['Cybersecurity in AI Capstone.pdf', 'Data science in AI for capstone.pdf']
+Answer:
+I couldn't find any information about RAG being introduced in 2020 within the provided research documents. The documents seem to be focused on cybersecurity frameworks, data science, and artificial intelligence in finance. There is no mention of RAG (Risk Assessment Group) or any related information. Therefore, I must conclude that the answer to this question cannot be found in the uploaded research documents.
+
+Source: Cybersecurity Framework Version 1.1
+
+----------------------------------------
+Date/Time: 2026-05-11 13:16:04.931033
+Question: What are the limitations of RAG discussed in the paper?
+Sources Used: ['RAG testing for capstone.pdf', 'pdf for testing AI healthacare VS.pdf']
+Answer:
+According to the uploaded document context, the limitations of RAG discussed in the paper are:
+
+1) Many studies on RAG are available as pre-print formats online, lacking peer review, which raises questions about their authenticity.
+2) The survey overlooks the technical implementation details and challenges associated with using RAG technology alongside open-source LLMs, including the cost of querying the LLM via Application Programming Interface (API).
+3) The performance of RAG concerning the volume and variety of datasets has not been discussed, which may lead to processing delays when deploying RAG with large datasets.
+4) The survey did not cover the diverse range of RAG architectures and technologies available.
+
+Source document: ['RAG testing for capstone.pdf', 'pdf for testing AI healthacare VS.pdf']
+
+----------------------------------------
+Date/Time: 2026-05-11 13:16:44.791282
+Question: What are the benefits of integrating external data retrieval in LLMs?
+Sources Used: ['RAG testing for capstone.pdf']
+Answer:
+Based on the uploaded document context, the benefits of integrating external data retrieval in LLMs (Large Language Models) are:
+
+* Enhance the accuracy and relevance of generated content through seamless integration with text generation processes.
+* Ensure that generated output is grounded in retrieved evidence, leading to more reliable and accurate results.
+
+Source: ['RAG testing for capstone.pdf']
+
+----------------------------------------
+Date/Time: 2026-05-11 13:17:11.459716
+Question: What is SELF-RAG?
+Sources Used: ['Cybersecurity in AI Capstone.pdf']
+Answer:
+Based on the provided context from the "Cybersecurity in AI Capstone.pdf" document, SELF-RAG is not mentioned as a specific term or concept. The document primarily discusses the Cybersecurity Framework and its applications in risk management and cybersecurity.
+
+If you're looking for information on SELF-RAG, I could not find enough information in the uploaded research documents.
+
+----------------------------------------
+Date/Time: 2026-05-11 13:17:58.819501
+Question: What are the main application areas of RAG?
+Sources Used: ['RAG testing for capstone.pdf']
+Answer:
+Based on the uploaded research document context, RAG (Rules as Graph) has several main application areas:
+
+1. Task-specific studies: RAG is applied to various NLP tasks such as Natural Language Processing, Software Development and Maintenance, Decision Making and Applications.
+2. Discipline-based classification: RAG applications are categorized across different disciplines like Medical/Biomedical, Financial, Educational, Technology and Software Development, Social and Communication, Literature.
+
+The context does not explicitly mention the specific application areas for RAG, but it highlights the increasing interest in applying RAG to various domains.
+
+Source document: ['RAG testing for capstone.pdf']
