@@ -23,7 +23,7 @@ def read_pdf(file_path):
     return text
 
 
-def split_text(text, chunk_size=200, overlap=40):
+def split_text(text, chunk_size=150, overlap=40):
     words = text.split()
     chunks = []
 

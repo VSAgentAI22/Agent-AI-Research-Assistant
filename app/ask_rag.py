@@ -9,18 +9,24 @@ EMBEDDING_MODEL = "nomic-embed-text"
 CHAT_MODEL = "llama3"
 
 client = chromadb.PersistentClient(path=DB_DIR)
-collection = client.get_or_create_collection(name="research_documents")
+
+collection = client.get_or_create_collection(
+    name="research_documents"
+)
 
 
 def get_embedding(text):
+
     response = ollama.embeddings(
         model=EMBEDDING_MODEL,
         prompt=text
     )
+
     return response["embedding"]
 
 
-def search_documents(question, top_k=4):
+def search_documents(question, top_k=8):
+
     question_embedding = get_embedding(question)
 
     results = collection.query(
@@ -29,30 +35,37 @@ def search_documents(question, top_k=4):
     )
 
     documents = results["documents"][0]
+
     sources = results["metadatas"][0]
 
     return documents, sources
 
 
 def log_query(question, answer, sources):
+
     with open(LOG_FILE, "a", encoding="utf-8") as file:
+
         file.write("\n----------------------------------------\n")
+
         file.write(f"Date/Time: {datetime.now()}\n")
+
         file.write(f"Question: {question}\n")
-        file.write(f"Sources Used: {sources}\n")
+
+        file.write(f"Internal Sources Used: {sources}\n")
+
         file.write(f"Answer:\n{answer}\n")
 
 
 def ask_question(question):
+
     documents, sources = search_documents(question)
 
     context = "\n\n".join(documents)
-    source_names = list(set([source["source"] for source in sources]))
 
     prompt = f"""
-You are an academic research assistant for Whitireia and WelTec.
+You are an academic research assistant.
 
-Your job is to answer student and staff research questions using ONLY the uploaded research document context.
+Answer the user's question using ONLY the uploaded document context.
 
 Question:
 {question}
@@ -61,16 +74,15 @@ Uploaded document context:
 {context}
 
 Rules:
-1. Use only the context provided.
-2. Do not make up information.
-3. If the answer is not found, say:
-"I could not find enough information in the uploaded research documents."
-4. Use simple academic language.
-5. Give a clear and useful answer.
-6. At the end, include the source document name.
-
-Source documents:
-{source_names}
+1. Use simple academic language.
+2. Do not mention document names.
+3. Do not mention sources.
+4. Do not include citations.
+5. Do not say where the answer came from.
+6. Do not make up information.
+7. If the answer is not clearly found in the uploaded document context, say:
+"Based on the available project documents, I could not find a direct answer for this question. Please try asking the question in a different way or add more relevant documents to the knowledge base."
+8. Keep the answer clear, professional, and helpful.
 """
 
     response = ollama.chat(
@@ -85,19 +97,26 @@ Source documents:
 
     answer = response["message"]["content"]
 
-    log_query(question, answer, source_names)
+    log_query(question, answer, sources)
 
     return answer
 
+if __name__ == "__main__":
 
-while True:
-    question = input("\nEnter your research question or type exit: ")
+    while True:
 
-    if question.lower() == "exit":
-        print("Closing AI Research Assistant.")
-        break
+        question = input(
+            "\nEnter your research question or type exit: "
+        )
 
-    answer = ask_question(question)
+        if question.lower() == "exit":
 
-    print("\nAnswer:\n")
-    print(answer)
+            print("Closing AI Research Assistant.")
+
+            break
+
+        answer = ask_question(question)
+
+        print("\nAnswer:\n")
+
+        print(answer)
