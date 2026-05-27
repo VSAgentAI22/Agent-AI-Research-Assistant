@@ -349,3 +349,19 @@ Question: what is cybersecurity in AI ?
 Internal Sources Used: [{'chunk_number': 151, 'source': 'Cybersecurity in AI Capstone.pdf'}, {'chunk_number': 13, 'source': 'Cybersecurity in AI Capstone.pdf'}, {'source': 'Cybersecurity in AI Capstone.pdf', 'chunk_number': 76}, {'chunk_number': 29, 'source': 'Cybersecurity in AI Capstone.pdf'}, {'source': 'Cybersecurity in AI Capstone.pdf', 'chunk_number': 30}, {'source': 'Cybersecurity in AI Capstone.pdf', 'chunk_number': 150}, {'source': 'Cybersecurity in AI Capstone.pdf', 'chunk_number': 10}, {'source': 'Cybersecurity in AI Capstone.pdf', 'chunk_number': 68}]
 Answer:
 Cybersecurity is a risk-based approach to managing cybersecurity risk that is applicable to organizations relying on technology, whether their focus is primarily on information technology (IT), industrial control systems (ICS), cyber-physical systems (CPS), or connected devices more generally, including the Internet of Things (IoT). It aims to reduce and manage cybersecurity risk by providing a common taxonomy of standards, guidelines, and practices that can be used by organizations in any sector of the economy or society.
+
+----------------------------------------
+Date/Time: 2026-05-27 12:26:57.781730
+Question: What is Retrieval-Augmented Generation?
+Internal Sources Used: [{'chunk_number': 1009, 'source': 'foundation pdf.pdf'}, {'chunk_number': 893, 'source': 'foundation pdf.pdf'}, {'source': 'foundation pdf.pdf', 'chunk_number': 793}, {'source': 'RAG testing for capstone.pdf', 'chunk_number': 58}, {'chunk_number': 891, 'source': 'foundation pdf.pdf'}, {'source': 'foundation pdf.pdf', 'chunk_number': 1005}, {'chunk_number': 12, 'source': 'jurafsjy refernce book pdf.pdf'}, {'source': 'Cybersecurity in AI Capstone.pdf', 'chunk_number': 27}]
+Answer:
+Retrieval-Augmented Generation (RAG) is a method that combines retrieval-based models with generative language models to generate text that is coherent and informative. In RAG, a retrieval model is used to retrieve relevant text fragments from a large corpus, and then a generative model is used to generate new text based on the retrieved fragments. This approach allows for more accurate and informative generation of text than traditional generative models alone.
+
+----------------------------------------
+Date/Time: 2026-05-27 12:37:14.998677
+Question: what is Retrieval-Augmented Generation?
+Internal Sources Used: [{'chunk_number': 893, 'source': 'foundation pdf.pdf'}, {'chunk_number': 793, 'source': 'foundation pdf.pdf'}, {'chunk_number': 1009, 'source': 'foundation pdf.pdf'}, {'chunk_number': 1005, 'source': 'foundation pdf.pdf'}, {'chunk_number': 58, 'source': 'RAG testing for capstone.pdf'}, {'source': 'jurafsjy refernce book pdf.pdf', 'chunk_number': 1411}, {'source': 'Cybersecurity in AI Capstone.pdf', 'chunk_number': 27}, {'chunk_number': 28, 'source': 'Cybersecurity in AI Capstone.pdf'}]
+Answer:
+What is Retrieval-Augmented Generation?
+
+Retrieval-Augmented Generation is a technique that combines language generation with retrieval of existing text. This approach involves training a model to generate new text based on some input prompt or data, while also drawing upon stored knowledge from a vast corpus of texts. The retrieved text serves as an augmentation to the generated text, providing additional context, nuance, and detail.
